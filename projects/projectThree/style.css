@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #34D399;
+    --dark-grey: #6B7280;
+    --white: #F3F4F6;
+}
+
+textarea {
+    padding: 1rem;
+    width: 70%;
+    min-height: 20vh;
+    display: block;
+    margin: 2rem;
+    border-width: 1px;
+}
+
+#output {
+    border: 1px solid black;
+    width: 70%;
+    min-height: 12vh;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+body {
+    background-image: url("./minions.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.font {
+    color: #3B82F6;
+    border-radius: 1rem;
+    border-color: chocolate;
+    font-size: 1.5rem;
+}
+
+.top {
+    padding-top: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+textarea {
+    padding: 1rem;
+    width: 70%;
+    min-height: 20vh;
+    display: block;
+    margin: 1px;
+    border-width: 1px;
+}
+
+#output {
+    border: 1px solid black;
+    width: 70%;
+    min-height: 12vh;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.font {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: large;
+    background-color: var(--primary);
+}
+
+div {
+    display: block;
+}
+
+nav {
+    background-color: var(--primary);
+    font-size: xx-large;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--primary);
+    border-radius: 1rem;
+    border-color: rebeccapurple;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+}
