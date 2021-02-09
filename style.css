@@ -165,3 +165,10 @@ div {
 .blog {
     width: 70%;
 }
+
+.linkre {
+    text-align: center;
+    color: #8D3DAF;
+    font-size: xx-large;
+    font-weight: bolder;
+}
